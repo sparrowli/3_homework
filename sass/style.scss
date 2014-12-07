@@ -1,0 +1,168 @@
+@import "compass/layout";
+@import "compass/reset";
+@import "compass/css3";
+
+
+$text-color: #58575F;
+$body-color: #dddddd;
+$post-bg-color: #FFFBF5;
+$gray-text-color: #C6C1B0;
+
+body {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+  color: $text-color;
+  background-color: $body-color;
+}
+
+.hero {
+  width: 100%;
+  height: 70em;
+  position: relative;
+  background-color: #333333;
+  z-index: 1;
+}
+
+.hero h2 {
+  text-align: center;
+  font-size: 6em;
+  font-weight: bold;
+  padding: 3em 0 1em 0;
+  text-transform: uppercase;
+  color: white;
+}
+
+.hero p {
+  max-width: 70%;
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: #cecece;
+  line-height: 1.4;
+  margin: 0 auto;
+  padding: 1em 0 8em 0;
+}
+
+.hero:after {
+background: url("../img/1_hero_img.jpg");
+background-size: cover;
+position: absolute;
+content: "";
+z-index: -1;
+opacity: .2;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+}
+
+.p_introduction {
+  text-align: center;
+  padding: 2em 0;
+  background-color: #dddddd;
+}
+
+.p_introduction h3 {
+  width: 70em;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #0ac285;
+}
+
+.p_introduction h3:after {
+  content: "";
+  display: block;
+  background-color: #cccccc;
+  width: 2em;
+  height: .2em;
+  margin: .4em auto;
+}
+
+.p_introduction .sample {
+padding: 0 6em 8em 6em;
+}
+
+.p_introduction #penguin-1 img { 
+  content: url("../img/3_little.jpg"); 
+}
+
+.p_introduction #penguin-2 img { 
+  content: url("../img/4_constant_love.jpg");
+}
+
+.p_introduction #penguin-3 img { 
+  content: url("../img/3_Love.png");
+}
+
+.p_introduction #penguin-4 img { 
+  content: url("../img/7_killed.jpg");
+}
+
+.p_introduction #penguin-5 img { 
+  content: url("../img/5_cute.jpg");
+}
+
+
+.p_introduction #penguin-1, .p_introduction #penguin-2, .p_introduction #penguin-3, .p_introduction #penguin-4, .p_introduction #penguin-5 {
+  overflow: hidden;
+  li {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+  }
+
+  .little {
+    width: 100%;
+    height: 30em;
+    overflow: hidden;
+  }
+
+  img{
+    width: 90%;
+    margin: 0 auto;
+   }
+} 
+ 
+
+.p_introduction #penguin-1, .p_introduction #penguin-2, .p_introduction #penguin-3, .p_introduction #penguin-4, .p_introduction #penguin-5 {
+  li .description {
+
+    h4{
+      text-align: left;
+      padding-left: 1.5em;
+      font-size: 2em;
+      font-weight: bold;
+    }
+    p {
+      font-size: 1.5em;
+      font-weight: lighter;
+      line-height: 1.4;
+      color: #6e6e6e;
+      text-align: left;
+      padding: .5em 2em;
+    }
+  }
+}
+
+
+.p_introduction .note p {
+  padding: 0 4em;
+  color: #9e9e9e;
+  line-height: 1.2;
+
+  a {
+    color: #0ac285;
+  }
+}
+
+/*aside#profile {
+  @include stretch-y(0);
+  background: HSL(205, 45%, 63%);
+}
+
+aside#ad {
+  @include stretch-y(0);
+  margin-left: 75%;
+  background: HSL(38, 100%, 98%);
+}*/
+
