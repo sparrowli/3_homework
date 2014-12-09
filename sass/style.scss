@@ -58,13 +58,12 @@ left: 0;
 
 .p_introduction {
   text-align: center;
-  padding: 2em 0;
   background-color: #dddddd;
 }
 
 .p_introduction h3 {
   margin-top: 5em;
-  width: 70em;
+  width: 100%;
   font-size: 2em;
   text-transform: uppercase;
   color: #0ac285;
@@ -80,7 +79,33 @@ left: 0;
 }
 
 .p_introduction .sample {
-padding: 0 6em 8em 6em;
+  overflow: hidden;
+  padding: 0 6em 8em 6em;
+
+  li {
+    width: 50%;
+    overflow: hidden;
+    min-width: 320px;
+  }
+  .little {
+    width: 100%;
+    height: 30em;
+    overflow: hidden;
+  }
+  img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  &:nth-child(even) {
+    li {
+      float: left;
+    }
+  }
+  &:nth-child(odd) {
+    li {
+      float: right;
+    }
+  }
 }
 
 .p_introduction #penguin-1 img { 
@@ -105,25 +130,11 @@ padding: 0 6em 8em 6em;
 
 
 .p_introduction #penguin-1, .p_introduction #penguin-2, .p_introduction #penguin-3, .p_introduction #penguin-4, .p_introduction #penguin-5 {
-  overflow: hidden;
   li {
-    float: left;
-    width: 50%;
-    overflow: hidden;
   }
 
-  .little {
-    width: 100%;
-    height: 30em;
-    overflow: hidden;
-  }
+}
 
-  img{
-    width: 90%;
-    margin: 0 auto;
-   }
-} 
- 
 
 .p_introduction #penguin-1, .p_introduction #penguin-2, .p_introduction #penguin-3, .p_introduction #penguin-4, .p_introduction #penguin-5 {
   li .description {
@@ -145,16 +156,29 @@ padding: 0 6em 8em 6em;
   }
 }
 
+.note {
+  margin-bottom: 2em;
+  p {
+    text-align: center;
+    padding: 0 4em;
+    color: #9e9e9e;
+    line-height: 1.2;
 
-.p_introduction .note p {
-  padding: 0 4em;
-  color: #9e9e9e;
-  line-height: 1.2;
-
-  a {
-    color: #0ac285;
+    a {
+      color: #0ac285;
+    }
   }
 }
+
+@media all and (max-width: 760px) {
+  .p_introduction .sample {
+    padding: 0;
+    li {
+      width: 100%;
+    }
+  }
+}
+
 
 /*aside#profile {
   @include stretch-y(0);

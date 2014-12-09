@@ -1,4 +1,4 @@
-/* line 5, ../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../../usr/local/opt/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../usr/local/opt/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../usr/local/opt/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../usr/local/opt/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../usr/local/opt/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../usr/local/opt/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../usr/local/opt/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../usr/local/opt/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../usr/local/opt/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -75,7 +75,7 @@ body {
 /* line 19, ../sass/style.scss */
 .hero {
   width: 100%;
-  height: 70em;
+  height: 60em;
   position: relative;
   background-color: #333333;
   z-index: 1;
@@ -119,13 +119,13 @@ body {
 /* line 59, ../sass/style.scss */
 .p_introduction {
   text-align: center;
-  padding: 2em 0;
   background-color: #dddddd;
 }
 
-/* line 65, ../sass/style.scss */
+/* line 64, ../sass/style.scss */
 .p_introduction h3 {
-  width: 70em;
+  margin-top: 5em;
+  width: 100%;
   font-size: 2em;
   text-transform: uppercase;
   color: #0ac285;
@@ -143,64 +143,68 @@ body {
 
 /* line 81, ../sass/style.scss */
 .p_introduction .sample {
+  overflow: hidden;
   padding: 0 6em 8em 6em;
 }
-
 /* line 85, ../sass/style.scss */
-.p_introduction #penguin-1 img {
-  content: url("../img/3_little.jpg");
-}
-
-/* line 89, ../sass/style.scss */
-.p_introduction #penguin-2 img {
-  content: url("../img/4_constant_love.jpg");
-}
-
-/* line 93, ../sass/style.scss */
-.p_introduction #penguin-3 img {
-  content: url("../img/3_Love.png");
-}
-
-/* line 97, ../sass/style.scss */
-.p_introduction #penguin-4 img {
-  content: url("../img/7_killed.jpg");
-}
-
-/* line 101, ../sass/style.scss */
-.p_introduction #penguin-5 img {
-  content: url("../img/5_cute.jpg");
-}
-
-/* line 106, ../sass/style.scss */
-.p_introduction #penguin-1, .p_introduction #penguin-2, .p_introduction #penguin-3, .p_introduction #penguin-4, .p_introduction #penguin-5 {
-  overflow: hidden;
-}
-/* line 108, ../sass/style.scss */
-.p_introduction #penguin-1 li, .p_introduction #penguin-2 li, .p_introduction #penguin-3 li, .p_introduction #penguin-4 li, .p_introduction #penguin-5 li {
-  float: left;
+.p_introduction .sample li {
   width: 50%;
   overflow: hidden;
+  min-width: 320px;
 }
-/* line 114, ../sass/style.scss */
-.p_introduction #penguin-1 .little, .p_introduction #penguin-2 .little, .p_introduction #penguin-3 .little, .p_introduction #penguin-4 .little, .p_introduction #penguin-5 .little {
+/* line 90, ../sass/style.scss */
+.p_introduction .sample .little {
   width: 100%;
   height: 30em;
   overflow: hidden;
 }
-/* line 120, ../sass/style.scss */
-.p_introduction #penguin-1 img, .p_introduction #penguin-2 img, .p_introduction #penguin-3 img, .p_introduction #penguin-4 img, .p_introduction #penguin-5 img {
+/* line 95, ../sass/style.scss */
+.p_introduction .sample img {
   width: 90%;
   margin: 0 auto;
 }
+/* line 100, ../sass/style.scss */
+.p_introduction .sample:nth-child(even) li {
+  float: left;
+}
+/* line 105, ../sass/style.scss */
+.p_introduction .sample:nth-child(odd) li {
+  float: right;
+}
 
-/* line 130, ../sass/style.scss */
+/* line 111, ../sass/style.scss */
+.p_introduction #penguin-1 img {
+  content: url("../img/3_little.jpg");
+}
+
+/* line 115, ../sass/style.scss */
+.p_introduction #penguin-2 img {
+  content: url("../img/4_constant_love.jpg");
+}
+
+/* line 119, ../sass/style.scss */
+.p_introduction #penguin-3 img {
+  content: url("../img/3_Love.png");
+}
+
+/* line 123, ../sass/style.scss */
+.p_introduction #penguin-4 img {
+  content: url("../img/7_killed.jpg");
+}
+
+/* line 127, ../sass/style.scss */
+.p_introduction #penguin-5 img {
+  content: url("../img/5_cute.jpg");
+}
+
+/* line 142, ../sass/style.scss */
 .p_introduction #penguin-1 li .description h4, .p_introduction #penguin-2 li .description h4, .p_introduction #penguin-3 li .description h4, .p_introduction #penguin-4 li .description h4, .p_introduction #penguin-5 li .description h4 {
   text-align: left;
   padding-left: 1.5em;
   font-size: 2em;
   font-weight: bold;
 }
-/* line 136, ../sass/style.scss */
+/* line 148, ../sass/style.scss */
 .p_introduction #penguin-1 li .description p, .p_introduction #penguin-2 li .description p, .p_introduction #penguin-3 li .description p, .p_introduction #penguin-4 li .description p, .p_introduction #penguin-5 li .description p {
   font-size: 1.5em;
   font-weight: lighter;
@@ -210,17 +214,32 @@ body {
   padding: .5em 2em;
 }
 
-/* line 148, ../sass/style.scss */
-.p_introduction .note p {
+/* line 159, ../sass/style.scss */
+.note {
+  margin-bottom: 2em;
+}
+/* line 161, ../sass/style.scss */
+.note p {
+  text-align: center;
   padding: 0 4em;
   color: #9e9e9e;
   line-height: 1.2;
 }
-/* line 153, ../sass/style.scss */
-.p_introduction .note p a {
+/* line 167, ../sass/style.scss */
+.note p a {
   color: #0ac285;
 }
 
+@media all and (max-width: 760px) {
+  /* line 174, ../sass/style.scss */
+  .p_introduction .sample {
+    padding: 0;
+  }
+  /* line 176, ../sass/style.scss */
+  .p_introduction .sample li {
+    width: 100%;
+  }
+}
 /*aside#profile {
   @include stretch-y(0);
   background: HSL(205, 45%, 63%);
